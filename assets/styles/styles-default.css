@@ -1,0 +1,37 @@
+
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: last baseline;
+    height: 100vh;
+    padding: auto;
+}
+
+main {
+    display: block;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+/* FOOTER */
+.attribution {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+}
