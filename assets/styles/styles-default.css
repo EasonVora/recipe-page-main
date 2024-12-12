@@ -15,7 +15,6 @@ body {
 main {
     display: block;
     flex-direction: column;
-    max-width: 500px;
     margin: auto;
     padding: 30px;
     overflow: hidden;
