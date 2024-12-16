@@ -2,7 +2,7 @@
 
 
 
-.Time, p, li {
+.Time, table, p, li {
     font-family: sans-serif;
 }
 h1, h2 {
@@ -42,10 +42,11 @@ p, li, .td1 {
 .midart {
     border-bottom: solid 1px hsl(30, 18%, 87%);
 }
-ul, ol {
-    list-style-position: inset;
-}
 
+.table-borders td {
+    border-bottom: solid 1px hsl(30, 18%, 87%);
+    border-collapse: collapse;
+}
 
 
 
