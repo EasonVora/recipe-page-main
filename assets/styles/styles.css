@@ -3,10 +3,10 @@
 
 
 .Time, table, p, li {
-    font-family: sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 h1, h2 {
-    font-family: 'Young Serif';
+    font-family: 'Young Serif', serif;
     font-weight: 400;
 }
 h1 {
