@@ -1,15 +1,16 @@
 
-/* * {
+* {
     box-sizing: border-box;
-} */
+    transition: all 0.3s ease;
+}
 
 body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: last baseline;
+    align-items: baseline;
     height: 100vh;
-    padding: auto;
+    min-height: 100vh;
 }
 
 main {
@@ -18,19 +19,20 @@ main {
     margin: auto;
     padding: 30px;
     overflow: hidden;
+    width: 100%;
 }
 
 img {
     display: block;
     margin: auto;
-    width: 100%;
+    max-width: 100%;
 }
 
 /* FOOTER */
 .attribution {
     position: relative;
     bottom: 0;
-    width: 100%;
     margin-bottom: 0px;
     padding: 15px;
+    width: 100%;
 } 

@@ -3,11 +3,11 @@
 @media screen and (max-width: 700px){
     main {
         margin: 0;
-        padding: 0;
+        padding: 0px;
         width: 100%;
     }  
     body, html {
-        margin: auto;
+        margin: 0;
         padding: 0;
     }
     img {
@@ -25,7 +25,7 @@
     }
     img {
         border-radius: 10px;
-        width: 88%;
+        max-width: 88%;
     }
 }
 article {
@@ -41,21 +41,26 @@ h2 {
     margin: 0;
 }
 
+ul, ol {
+    padding: 0 17px;
+}
 ul ::marker {
     font-size: 12px;
 }
 
 table {
     width: 100%;
+    border-collapse: collapse;
 }
 td {
     padding: 10px;
+    text-align: left;
+    
 }
 .td2 {
     position: relative;
     left: -2px;
 }
-
 
 
 
