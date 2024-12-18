@@ -1,8 +1,8 @@
 /* Colors, Font, Borders */
 
 
-
-.Time, table, p, li {
+/* FONTS */
+.Time, table, p, ol, ul {
     font-family: 'Outfit', sans-serif;
 }
 h1, h2 {
@@ -16,9 +16,18 @@ p {
     font-size: 16px;
 }
 p, li {
-    line-height: 2;
+    line-height: 1.5;
+}
+ul li::marker {
+    font-size: 10px;
+}
+ol li::marker {
+    font-weight: bold;
+    
 }
 
+
+/* COLORS */
 body {
     background-color: hsl(30, 54%, 90%);
 }
@@ -36,16 +45,18 @@ p, li, .td1 {
 }
 .Time {
     background-color: hsl(330, 100%, 98%);
-    border-radius: 8px;
+    border-radius: 8px; /* Border */
 }
 
+/* BORDERS */
 .midart {
     border-bottom: solid 1px hsl(30, 18%, 87%);
 }
-
+table {
+    border-collapse: collapse;
+}
 .table-borders td {
     border-bottom: solid 1px hsl(30, 18%, 87%);
-    border-collapse: collapse;
 }
 
 
