@@ -16,13 +16,18 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot.jpg)
+![./assets/images/Solutions/Screenshot-Solution-Desktop1.png]
+![./assets/images/Solutions/Screenshot-Solution-Desktop2.png]
+![./assets/images/Solutions/Screenshot-Solution-Mobile1.png]
+![./assets/images/Solutions/Screenshot-Solution-Mobile2.png]
+![./assets/images/Solutions/Screenshot-Solution-Mobile3.png]
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: []
+- Repository URL: [https://github.com/EasonVora/recipe-page-main]
+- Live Site URL: [https://easonvora.github.io/recipe-page-main/]
 
 ## My process
 - add HTML elements and classes to [index.html]
