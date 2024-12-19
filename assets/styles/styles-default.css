@@ -30,6 +30,7 @@ img {
 
 /* FOOTER */
 .attribution {
+    /* text-align: center; */ /* Already in HTML code */
     position: relative;
     bottom: 0;
     margin-bottom: 0px;
